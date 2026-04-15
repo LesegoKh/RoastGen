@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+
     document.getElementById("generateRoast").addEventListener("click", async function () {
         const selectedMode = document.getElementById("roastMode").value;
         const topic = document.getElementById("roastTopic").value.trim() || "your existence";
